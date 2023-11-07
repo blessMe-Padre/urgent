@@ -1,13 +1,15 @@
 .animation-left {
     position: relative;
-    animation: unionLeft 0.7s linear alternate forwards;
-    left: -100px;
+    animation: unionLeft 0.7s linear alternate forwards 1.2s;
+    left: -300px;
+    opacity: 0;
 }
 
 .animation-right {
     position: relative;
-    animation: unionRight 0.7s linear alternate forwards;
-    right: -100px;
+    animation: unionRight 0.7s linear alternate forwards 1.2s;
+    right: -300px;
+    opacity: 0;
 }
 
 @keyframes unionLeft {
@@ -16,7 +18,8 @@
     }
 
     to {
-        transform: translateX(100px) translateY(0);
+        transform: translateX(300px) translateY(0);
+        opacity: 1;
     }
 }
 
@@ -26,6 +29,7 @@
     }
 
     to {
-        transform: translateX(-100px) translateY(0);
+        transform: translateX(-300px) translateY(0);
+        opacity: 1;
     }
 }

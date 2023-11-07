@@ -1,7 +1,8 @@
 .faq {
     padding: 70px 0;
-    background-image: url('../src/img/bg/faq-bg.jpg');
+    background-image: url('../src/img/bg/faq-bg.webp');
     background-size: cover;
+    background-position-y: -1px;
 }
 
 .faq__title {
